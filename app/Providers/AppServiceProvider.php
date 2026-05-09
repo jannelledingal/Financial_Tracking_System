@@ -1,13 +1,14 @@
 <?php
 
 namespace App\Providers;
-use Illuminate\Support\Facades\URL;
 
-use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Event;
-use Illuminate\Auth\Events\Login;
 use App\Listeners\UpdateLastLogin;
-
+use App\Models\FinancialTrans;
+use App\Observers\TransactionObserver;
+use Illuminate\Auth\Events\Login;
+use Illuminate\Support\Facades\Event;
+use Illuminate\Support\Facades\URL;
+use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -32,9 +33,10 @@ class AppServiceProvider extends ServiceProvider
 
         view()->composer('layouts.navigation-top', \App\Http\View\Composers\ActivityComposer::class);
 
-        //  to force HTTPS in production
-        if (env('APP_ENV') === 'production') {
+        if (config('app.env') === 'production') {
             URL::forceScheme('https');
         }
+
+        FinancialTrans::observe(TransactionObserver::class);
     }
 }

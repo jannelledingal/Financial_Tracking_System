@@ -19,17 +19,7 @@
         </div>
     </div>
 
-    @if (session('success'))
-        <div class="p-4 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-700 text-sm">
-            ✓ {{ session('success') }}
-        </div>
-    @endif
-
-    @if (session('error'))
-        <div class="p-4 rounded-lg bg-red-50 border border-red-200 text-red-700 text-sm">
-            ✗ {{ session('error') }}
-        </div>
-    @endif
+ 
 
     <div class="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200/70">
         <div class="overflow-x-auto">

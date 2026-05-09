@@ -150,6 +150,8 @@
         </div>
     </div>
  </div>
+<p class="mt-4 leading-relaxed text-slate-300 text-lg">
+                                Contact jjannellev@gmail.com for any system concerns.
 
 
  {{-- RIGHT COLUMN: SPENDING DONUT --}}
@@ -181,9 +183,6 @@
         @endforeach
     </div>
 </div>
-
-<p class="mt-4 leading-relaxed text-slate-300 text-lg">
-                                Contact jjannellev@gmail.com for any system concerns.
 
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

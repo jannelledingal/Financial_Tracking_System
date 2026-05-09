@@ -150,9 +150,6 @@
         </div>
     </div>
  </div>
-<p class="mt-4 leading-relaxed text-slate-300 text-lg">
-                                Contact jjannellev@gmail.com for any system concerns.
-
 
  {{-- RIGHT COLUMN: SPENDING DONUT --}}
     <div class="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200/70 flex flex-col">

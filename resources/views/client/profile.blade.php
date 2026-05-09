@@ -33,15 +33,24 @@
             </div>
         </div>
 
-            <a href="{{ route('profile.edit') }}" class="inline-flex items-center justify-center rounded-full bg-slate-950 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-slate-800">Account Settings</a>
-
+        <div class="space-y-6">
             <div class="rounded-3xl bg-white p-8 shadow-sm ring-1 ring-slate-200/70">
                 <p class="text-sm uppercase tracking-[0.24em] text-slate-500">Quick actions</p>
-                <div class="mt-4 space-y-3">
-                    <a href="{{ route('client.messages') }}" class="block rounded-3xl bg-slate-100 px-5 py-4 text-sm font-semibold text-slate-900 hover:bg-slate-200">Send a message</a>
-                    <a href="{{ route('client.goals') }}" class="block rounded-3xl bg-slate-100 px-5 py-4 text-sm font-semibold text-slate-900 hover:bg-slate-200">Review savings goals</a>
+                <div class="mt-6 space-y-3">
+                    <a href="{{ route('profile.edit') }}" class="flex items-center justify-center rounded-2xl bg-slate-950 px-5 py-4 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 transition-colors">
+                        Account Settings
+                    </a>
+                    
+                    <a href="{{ route('client.messages') }}" class="block rounded-2xl bg-slate-50 px-5 py-4 text-sm font-semibold text-slate-900 hover:bg-slate-200 transition-colors">
+                        Send a message
+                    </a>
+                    
+                    <a href="{{ route('client.goals') }}" class="block rounded-2xl bg-slate-50 px-5 py-4 text-sm font-semibold text-slate-900 hover:bg-slate-200 transition-colors">
+                        Review savings goals
+                    </a>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </div>

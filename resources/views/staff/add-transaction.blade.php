@@ -19,17 +19,7 @@
         </div>
     </div>
 
-    @if(session('success'))
-        <div class="rounded-lg bg-emerald-50 p-4 text-emerald-800 border border-emerald-200">
-            {{ session('success') }}
-        </div>
-    @endif
-
-    @if(session('error'))
-        <div class="rounded-lg bg-rose-50 p-4 text-rose-800 border border-rose-200">
-            {{ session('error') }}
-        </div>
-    @endif
+ 
 
     <div class="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200/70">
         <form method="POST" action="{{ route('staff.add-transaction.store') }}" class="space-y-6">

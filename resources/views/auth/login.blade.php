@@ -24,12 +24,7 @@
     </style>
 @section('content')
     <div class="mb-8 flex flex-col items-center">
-        {{-- Built-in Logo with Exact Gradient --}}
-        <div class="flex items-center">
-            <span class="text-5xl font-black tracking-tighter bg-gradient-to-r from-[#818cf8] via-[#60a5fa] to-[#22d3ee] bg-clip-text text-transparent filter drop-shadow-sm">
-                FinTrack
-            </span>
-        </div>
+        
         <p class="mt-4 text-sm text-slate-500 font-bold uppercase tracking-tight">FinTrack Login Area</p>
     </div>
 

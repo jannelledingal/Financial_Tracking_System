@@ -22,12 +22,7 @@
     </style>
 @section('content')
     <div class="mb-8 flex flex-col items-center">
-        {{-- FinTrack Logo --}}
-        <div class="flex items-center">
-            <span class="text-5xl font-black tracking-tighter bg-gradient-to-r from-[#818cf8] via-[#60a5fa] to-[#22d3ee] bg-clip-text text-transparent filter drop-shadow-sm">
-                FinTrack
-            </span>
-        </div>
+        
         <p class="mt-4 text-[10px] text-slate-500 font-bold uppercase tracking-[0.3em]">Join the Financial Revolution</p>
     </div>
 

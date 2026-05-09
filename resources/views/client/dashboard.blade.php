@@ -180,10 +180,10 @@
             </div>
         @endforeach
     </div>
-
-        <p class="mt-4 leading-relaxed text-slate-300 text-lg">
-                                Contact jjannellev@gmail.com for any system concerns.
 </div>
+
+<p class="mt-4 leading-relaxed text-slate-300 text-lg">
+                                Contact jjannellev@gmail.com for any system concerns.
 
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
